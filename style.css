@@ -30,7 +30,7 @@
   }
   
   div#resume h2 span {
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     font-style: italic;
@@ -166,4 +166,14 @@
     li {
       margin-right: 20px;
     }
+  }
+
+    div#resume h3 {
+    bottom: 0;
+    right: 0;
+    font-style: italic;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
   }

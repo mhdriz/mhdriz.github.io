@@ -1,154 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Rizky's Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Muhammad Rizky</title>
 </head>
 
 <body>
-    <div id="resume">
+  <main>
 
-        <img src="./media/photo.jpg" alt="hiki">
+    <header>
+      <h1><a href="./index.html">Muhammad Rizky</a></h1>
+      <div class="subtitle">Staff Petrophysicist</div>
+      <div class="contact">
+        Jakarta, Indonesia · <a href="mailto:muhammad.rizky@posteo.com">muhammad.rizky@posteo.com</a> · <a href="https://mhdriz.github.io/" target="_blank">mhdriz.github.io</a>
+      </div>
+    </header>
 
-        <h1>Muhammad Rizky</h1>
-        <p>Email: <a href=mailto:muhammad.rizky@posteo.com>muhammad.rizky@posteo.com</a></p>
-        <p>LinkedIn: <a href=https://www.linkedin.com/in/mhmmd-rizky>https://www.linkedin.com/in/mhmmd-rizky</a></p>
-        <p>Curriculum Vitae: <a href=./media/CV_Muhammad_Rizky.pdf>Download CV Here</a></p>
-        <p>Location: Jakarta, Indonesia</p>
-        <p id="objective">
-            A hands-on collaborator with proven track record of meticulous attention to detail, excellent communication, and teamwork skills necessary to team success. 
-            Possesses foundational knowledge and skillset as well as strong mindset in any condition and locations. Currently looking for a job (Open to Work) for oil and gas and geothermal industry, entry-level or mid-level.
-        </p>
+    <div class="columns">
 
-        <dl>
-            <dt>Education</dt>
-            <dd>
-                <h2>SMA Negeri 13 Jakarta</h2>
-                <p><strong>Major:</strong> Science, Cambridge Curriculum (IGCSE and A-Level)</p>
-                
-                <h2>Trisakti University</h2>
-                <p><strong>Major:</strong> Petroleum Engineering</p>
+      <!-- LEFT COLUMN -->
+      <div class="column">
 
-                <h2>Jakarta Drilling Society (JDS)</h2>
-                <p><strong>Course:</strong> Drilling</p>
-            </dd>
-        </dl>
+        <section>
+          <h2>Education</h2>
 
-        <dl>
-            <dt>Skills</dt>
-            <dd>
-                <h2>Programming Skills</h2>
-                <p>HTML, CSS, JavaScript, SQL, PostgreSQL, Python</p>
+          <h3>Bachelor of Engineering, Petroleum Engineering</h3>
+          <p>
+            <a href="https://trisakti.ac.id">Trisakti University</a> — Indonesia<br>
+            Graduated in 2018
+          </p>
+        </section>
 
-                <h2>Computer Skills</h2>
-                <p>Microsoft Office (Word, Excel, PowerPoint), Linux Operating System (Fedora, Debian, Ubuntu, Armbian), Windows (Operating System), VS Code</p>
+        <section>
+          <h2>Technical Skills</h2>
 
-                <h2>Petroleum Software Skills</h2>
-                <p>Petrel, Interactive Petrophysics (IP), Techlog, PIPESIM</p>
-                
-                <h2>Language Skills</h2>
-                <p>Indonesian (Native), English (Professional, C2 Level), Japanese (Intermediate, JLPT N3 Certified)</p>
-            </dd>
-        </dl>
+          <div class="skill-group">
+            <strong>Programming &amp; Web</strong>
+            HTML/CSS · JavaScript · Python · Bash
+          </div>
 
-        <dl>
-            <dt>Experience</dt>
-            <dd>
-                <h2>Freelance Translator</h2>
-                <h3>Freelance, 2024 – Present</h3>
-                <ul>
-                    <li>Member of TED Translators since 2024, translating contents from English to Indonesian</li>
-                    <li>Translating open-source apps and websites (Mastodon, Pleroma, Misskey) from Japanese-Indonesian and English-Indonesian</li>
-                </ul>
-                <br>
-                
-                <h2>Surveyor</h2>
-                <h3>PT Surveyor Indonesia, 2022 – 2025</h3>
-                <ul>
-                    <li>Conducted land and property surveys in Indonesia's oil and gas field as a Surveyor and SKKMIGAS Representative</li>
-                    <li>Collaborate with engineers and clients to ensure project requirements are met</li>
-                    <li>Examine historical records and evidence to ensure data accuracy</li>
-                    <li>Adhere to industry standards and safety regulations throughout all survey operations</li>
-                </ul>
-                <br>
-                
-                <h2>Staff Petrophysicist</h2>
-                <h3>Pertamina EP, 2018 – 2022</h3></h3>
-                <ul>
-                    <li>Participated in an oil and gas development project as a Petrophysicist team member</li>
-                    <li>Performed log analysis on over 30+ oil wells to identify and evaluate potential reservoir stratigraphy, properties, fluid types and fluid contact, and analyzed formation pressure data</li>
-                </ul>
-                <br>
-                
-                <h2>Petroleum Engineer Intern</h2>
-                <h3>BATM Trisakti, 2017 – 2018</h3>
-                <ul>
-                    <li>Responsible for log analysis of low resistivity oil wells to identify potential reservoir layers, rock and fluid properties, and determine oil-water contact (OWC) based on log measurements and Modular Formation Dynamics Tester (MDT) data</li>
-                    <li>Prepared technical reports and presentations to communicate findings to team members</li>
-                    <li>Received honors for research contributions in February 2018</li>
-                </ul>
-                <br>
+          <div class="skill-group">
+            <strong>Databases</strong>
+            PostgreSQL · SQL
+          </div>
 
-                <h2>Field Practical Training</h2>
-                <h3>PT Pertamina Geothermal Energy Tbk, 2014</h3>
-                <ul>
-                    <li>Assist engineers in daily site inspections of the Field and Geothermal Power Plant (PLTP) to ensure operational efficiency</li>
-                    <li>Collect and compile operational data (steam pressure, temperature, flow rates) for analysis and reporting</li>
-                    <li>Actively participate in safety briefings and ensure all activities comply with Pertamina’s Health, Safety, and Environment (HSE) protocols</li>
-                    <li>Develop a comprehensive technical report or presentation on a specific problem-solving topic agreed upon by the site supervisor</li>
-                </ul>
-                <br>
+          <div class="skill-group">
+            <strong>Systems</strong>
+            Linux · Windows · Git · VPS administration
+          </div>
 
-                <h2>Field Practical Training</h2>
-                <h3>PPSDM Migas Cepu, 2012</h3>
-                <ul>
-                    <li>Participate in field demonstrations at the drilling rig and production simulators to learn about well-control and lifting methods</li>
-                    <li>Document technical specifications of equipment for use in the academic report</li>
-                    <li>Engage with PPSDM Migas instructors and field operators to discuss current industry challenges and technological updates</li>
-                </ul>
-                <br>
-            </dd>
-        </dl>
+          <div class="skill-group">
+            <strong>Petroleum Software</strong>
+            Petrel · Interactive Petrophysics (IP) · Techlog · PIPESIM
+          </div>
 
-        <dl>
-            <dt>Volunteer and Organizations Experience</dt>
-            <dd>
-                <h2>SPWLA Young Professionals Member, Jakarta Chapter</h2>
-                <h3>Society of Petrophysicists and Well Log Analysts (SPWLA), 2026 – Present</h3>
-                <br>
-                
-                <h2>JDS Batch 7 Member</h2>
-                <h3>Jakarta Drilling Society (JDS), 2026 – Present</h3>
-                <br>
-                
-                <h2>EN-ID and JP-ID Translator</h2>
-                <h3>TED Translators, 2024 – Present</h3>
-                <br>
+          <div class="skill-group">
+            <strong>Office Software</strong>
+            Microsoft Office (Word, Excel, PowerPoint) · LibreOffice (Writer, Calc)
+          </div>
+        </section>
 
-                <h2>Jakarta Representative</h2>
-                <h3>The World of Ghibli (Studio Ghibli), 2017</h3>
-                <br>
+        <section>
+          <h2>Languages</h2>
 
-                <h2>SPE Member, Trisakti University Chapter</h2>
-                <h3>Society of Petroleum Engineers (SPE), 2013-2015</h3>
-            </dd>
-        </dl>
+          <p>
+            <strong>Indonesian:</strong> Native proficiency<br>
+            <strong>English:</strong> Full professional proficiency<br>
+            <strong>Japanese:</strong> Professional working proficiency
+          </p>
+        </section>
 
-        <dl>
-            <dt>Certifications</dt>
-            <dd>BOSIET-OPITO Approved, IWCF Level 1, IWCF WOCRM, Introduction to Drilling, Introduction to Well Servicing, 
-The Complete SQL Bootcamp, Introduction to Cybersecurity Tools & Cyberattacks, The Complete Python Pro Bootcamp, EF SET-C2, JLPT N3</dd>
-        </dl>
+        <section>
+          <h2>Courses</h2>
 
-        <dl>
-            <dt>Hobbies</dt>
-            <dd>Programming, Photography</dd>
-        </dl>
+          <p>
+            <a href="courses.html">Click here</a>
+          </p>
+        </section>
+
+        <section>
+          <h2>Curriculum Vitae</h2>
+
+          <p>
+            <a href="media/CV_Muhammad_Rizky.pdf">Download CV (pdf)</a>
+          </p>
+        </section>
+
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="column">
+
+        <section>
+          <h2>Profile</h2>
+
+          <p>
+            A hands-on collaborator with proven track record of meticulous attention to detail, excellent communication, and teamwork skills necessary to team success. Possesses foundational knowledge and skillset as well as strong mindset in any condition and locations. 
+          </p>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+
+          <div class="project">
+            <h3>Surveyor</h3>
+            <div class="role">PT Surveyor Indonesia</div>
+
+            <ul>
+              <li>Conducted land and property surveys in Indonesia's oil and gas field as a Surveyor and SKKMIGAS Representative.</li>
+              <li>Collaborate with engineers and clients to ensure project requirements are met.</li>
+              <li>Examine historical records and evidence to ensure data accuracy.</li>
+              <li>Adhere to industry standards and safety regulations throughout all survey operations.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Staff Petrophysicist</h3>
+            <div class="role">Pertamina EP</div>
+
+            <ul>
+              <li>Participated in an oil and gas development project as a Petrophysicist team member.</li>
+              <li>Performed log analysis on over 50+ oil wells to identify and evaluate potential reservoir stratigraphy, properties, fluid types and fluid contact, and analyzed formation pressure data.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Petroleum Engineer Intern</h3>
+            <div class="role">BATM Trisakti</div>
+
+            <ul>
+              <li>Responsible for log analysis of 10+ low resistivity oil wells to identify potential reservoir layers, rock and fluid properties, and determine oil-water contact (OWC) based on log measurements and Modular Formation Dynamics Tester (MDT) data.</li>
+              <li>Prepared technical reports and presentations to communicate findings to team members.</li>
+              <li>Received honors for research contributions in February 2018.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Field Practical Training</h3>
+            <div class="role">PT Pertamina Geothermal Energy, Tbk</div>
+
+            <ul>
+              <li>Assist engineers in daily site inspections of the Field and Geothermal Power Plant (PLTP) to ensure operational efficiency.</li>
+              <li>Collect and compile operational data (steam pressure, temperature, flow rates) for analysis and reporting.</li>
+              <li>Actively participate in safety briefings and ensure all activities comply with Pertamina’s Health, Safety, and Environment (HSE) protocols.</li>
+              <li>Develop a comprehensive technical report or presentation on a specific problem-solving topic agreed upon by the site supervisor.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Field Practical Training</h3>
+            <div class="role">PPSDM MIGAS Cepu</div>
+
+            <ul>
+              <li>Participate in field demonstrations at the drilling rig and production simulators to learn about well-control and lifting methods.</li>
+              <li>Document technical specifications of equipment for use in the academic report.</li>
+              <li>Engage with PPSDM Migas instructors and field operators to discuss current industry challenges and technological updates.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Volunteering and Organizations</h2>
+
+          <div class="project">
+            <h3>JDS Batch 7 Member</h3>
+            <div class="role">Jakarta Drilling Society</div>
+          </div>
+          
+          <div class="project">
+            <h3>Young Professionals, Jakarta Chapter</h3>
+            <div class="role">Society of Petrophysicists and Well Log Analysts (SPWLA)</div>
+          </div>
+
+          <div class="project">
+            <h3>EN-ID and JA-ID Translator</h3>
+            <div class="role">TED Translators</div>
+          </div>
+
+          <div class="project">
+            <h3>Jakarta Representative</h3>
+            <div class="role">The World of Ghibli (Studio Ghibli)</div>
+          </div>
+
+          <div class="project">
+            <h3>Member, Trisakti University Chapter</h3>
+            <div class="role">Society of Petroleum Engineers International (SPE)</div>
+          </div>
+
+        </section>
+
+        <section>
+          <h2>Licenses & Certifications</h2>
+
+          <div class="project">
+            <h3>EF SET - C2 (Proficient)</h3>
+            <div class="role">EF SET</div>
+            <p>Credential ID: WKbcVY</p>
+          </div>
+
+          <div class="project">
+            <h3>Japanese-Language Proficiency Test (JLPT) - N3</h3>
+            <div class="role">The Japan Foundation</div>
+            <p>Credential ID: N3A455743A</p>
+          </div>
+
+          <div class="project">
+            <h3>Pengantar Operasi Lapangan Migas</h3>
+            <div class="role">PPSDM MIGAS</div>
+            <p>Credential ID: 0293/Ind/BDM/2012</p>
+          </div>
+
+          <div class="project">
+            <h3>BOSIET - OPITO Approved</h3>
+            <div class="role">PT Lautan Tenang Jaya</div>
+            <p>Credential ID: 89815700130722018</p>
+          </div>
+
+          <div class="project">
+            <h3>IWCF - Level 1 Programme</h3>
+            <div class="role">International Well Control Forum (IWCF)</div>
+            <p>Credential ID: L1P_7837828082022</p>
+          </div>
+
+          <div class="project">
+            <h3>IWCF - Well Operations Crew Resource Management (WOCRM)</h3>
+            <div class="role">International Well Control Forum (IWCF)</div>
+            <p>Credential ID: WOCR_1378728082022</p>
+          </div>
+
+          <div class="project">
+            <h3>The Complete SQL Bootcamp</h3>
+            <div class="role">Udemy</div>
+            <p>Credential ID: UC-86517312-573d-4d42-9f44-be24567-d0ff4</p>
+          </div>
+
+          <div class="project">
+            <h3>The Complete Python Pro Bootcamp</h3>
+            <div class="role">Udemy</div>
+            <p>Credential ID: UC-5b903b3b-be30-4106-a5b5-b2317ed-56a1d</p>
+          </div>
+
+        </section>
+
+      </div>
 
     </div>
+  </main>
 </body>
-
 </html>
